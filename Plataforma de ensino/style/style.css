@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 50px;
+    background-color: #042e3a;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+header nav{
+    color: white;
+    text-decoration: none;
+}
+#gradeAluno{
+    border-radius: 12px;
+    font-family: space, sans-serif;
+    display: grid;
+    background-color: #4b6971;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+#imguser{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    border-radius: 6px;
+    border: solid black 1px;
+    margin: 25px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;    
+    color: white;
+    text-decoration: none;
+
+}
+.userinfo{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 50%;
+    color: white;
+    float: right;
+
+}
