@@ -164,6 +164,3 @@ for(i=0; i<cursos.length; i++){
 console.log("estou funcionando")
 
 console.log(galeriaDeCursos)
-
-
-

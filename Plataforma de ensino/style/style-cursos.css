@@ -1,9 +1,14 @@
-#galeria-de-cursos{
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
+*{
+    padding: 0px;
+    margin: 0px;
+   }
 
-}
+#galeria-de-cursos{
+   display:grid;
+   grid-template-columns: repeat(4, 1fr);
+  }
+
 img{
-    width: 200px;
-    height: 200px;
-}
+   width: 500px;
+   height: 600px;
+  }
