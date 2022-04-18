@@ -1,9 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-body{
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
-header{
+
+body{
+    font-family: josefin, sans-serif;
+}
+
+#logo{
     height: 50px;
+    padding-left: 15px;
+}
+
+#sigla{
+    font-family: josefin, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+#extenso{
+    font-family: josefin, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-right: 450px;
+}
+
+header{
+    height: 70px;
     background-color: #042e3a;
     color: white;
     text-decoration: none;
@@ -11,13 +36,19 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
-
+    margin-bottom: 30px;
 }
+
 header nav{
     color: white;
     text-decoration: none;
+    padding-right: 400px;
 }
+
+#login{
+    padding-right: 500px;
+}
+
 #gradeAluno{
     border-radius: 12px;
     font-family: space, sans-serif;
@@ -25,13 +56,13 @@ header nav{
     background-color: #4b6971;
     grid-template-columns: repeat(2, 1fr);
 
-
 }
 #imguser{
     height: 100%;
     align-items: center;
     justify-content: center;
 }
+
 .item{
     border-radius: 6px;
     border: solid black 1px;
@@ -41,8 +72,8 @@ header nav{
     font-style: normal;    
     color: white;
     text-decoration: none;
-
 }
+
 .userinfo{
     margin: 10px;
     display: grid;
@@ -50,5 +81,29 @@ header nav{
     height: 50%;
     color: white;
     float: right;
+}
 
+.slider-container{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    color: #042e3a;
+}
+
+.slider-content{
+    margin: 0 auto;
+    font-family: Josefin, sans-serif;
+}
+
+.slider-center{
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+.slider-button{
+    font-family: Josefin, sans-serif;
+    color: #042e3a;
+    font-size: 15px;
 }
