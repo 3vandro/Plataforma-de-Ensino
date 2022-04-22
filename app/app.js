@@ -46,7 +46,7 @@ const cursos = [
     },
     {
         id: "crs0006",
-        nome: "Microsof Office",
+        nome: "Microsoft Office",
         preco: 39.99,
         imagem: "Microsoft Office.jpg",
         categoria: "Tecnologia",
@@ -188,12 +188,14 @@ inicializarLoja = () => {
         containerLoja.innerHTML+= `
 
     <div class="curso-single">
-         
-         <p>`+val.preco+`</p>
-         <p>`+val.nome+`</p>
-         <p>`+val.descricao+`</p>
-         <p>`+val.categoria+`</p>
-         <a key="`+val.id+`" href="#">Comprar<a/>
+        <img src="img/cursos/`+val.nome+`.png"/>
+        <p key="`+val.id+`"<p/>
+        <p>R$ `+val.preco+`</p>
+        <a key="`+val.nome+`" href="`+val.nome+`.html">`+val.nome+`<a/>
+        <p>`+val.descricao+`</p>
+        <p>`+val.categoria+`</p>
+        <a class = "linkqtd" key="`+val.quantidade+`" href="#">Comprar<a/>
+
      </div>
      `;
     })
@@ -203,7 +205,11 @@ inicializarLoja = () => {
 inicializarLoja();
 
 
-atualizarMeusCursos = () => {
+
+
+// esse rodou:
+
+atualizarMeusCursos = ({key}) => {
 console.log(cursos);
 
     var containerMeusCursos = document.getElementById('meuscursos');
@@ -211,8 +217,8 @@ console.log(cursos);
     cursos.map((val)=> {
         if(val.quantidade > 0) {
         containerMeusCursos.innerHTML+= `
-
-         <p>`+val.nome+` | quantidade: `+val.quantidade+`</p>
+        <img src="img/cursos/`+val.nome+`.png"/><br>
+        <a key="`+val.nome+`" href="`+val.nome+`.html">`+val.nome+`<a/>
      `;
         }
     });
@@ -220,17 +226,19 @@ console.log(cursos);
 
 
 
-var links = document.getElementsByTagName('a');
+// var links = document.getElementsByTagName('a');
+var links = document.getElementsByClassName('linkqtd');
+console.log(links)
+
 
 for(var i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function() {
         let key = this.getAttribute("key");
         cursos[key].quantidade++;
-        atualizarMeusCursos();
+        atualizarMeusCursos(key);
         return false;
+        console.log(key)
     });
 }
 
-
-
-
+atualizarMeusCursos()
