@@ -111,9 +111,9 @@ header nav{
 }
 .imgcurso{
     height: 400px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
  /* .cta .ctb .ctc .ctd .cte .ctf .ctg{
     font-size: 20px;
@@ -255,3 +255,31 @@ p {
     font-size: 18px;
     color: black;
 }
+#article-curso{
+    background-color: white;
+    width: 1000px;
+    padding: 34px 24px 10px;
+    border-radius: 1%;
+    transform: translate(-50%);
+    margin-left: 50%;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.videos{
+    display: block;
+    justify-items: center;
+    /* grid-template-columns: 33% 33% 33%;
+    justify-items: center; */
+        /* width: 320px;
+        height: 240px; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+/* video{
+    border: solid 3px #4b6971;
+    border-radius: 15px;
+} */
