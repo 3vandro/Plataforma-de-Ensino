@@ -25,6 +25,7 @@
 
 body{
     font-family: josefin, sans-serif;
+    background: linear-gradient(120deg, #2d7286, #99a6ad);
 }
 header{
     height: 70px;
