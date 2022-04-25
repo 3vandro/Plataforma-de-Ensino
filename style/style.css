@@ -114,6 +114,7 @@ header nav{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
  }
  /* .cta .ctb .ctc .ctd .cte .ctf .ctg{
     font-size: 20px;
@@ -269,17 +270,20 @@ p {
 .videos{
     display: block;
     justify-items: center;
-    /* grid-template-columns: 33% 33% 33%;
-    justify-items: center; */
-        /* width: 320px;
-        height: 240px; */
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
     margin-bottom: 15px;
    
 }
-/* video{
-    border: solid 3px #4b6971;
-    border-radius: 15px;
-} */
+.cta, .ctb, .ctc, .ctd, .cte, .ctf, .ctg{
+    display: none;
+}
+.btn-curso{
+    border: none;
+    background-color: none;
+    color: #4b6971;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+}
