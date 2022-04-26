@@ -191,8 +191,7 @@ inicializarLoja = () => {
         <img src="img/cursos/`+val.nome+`.png"/>
         <p key="`+val.id+`"<p/>
         <p>R$ `+val.preco+`</p>
-        <a key="`+val.nome+`" href="`+val.nome+`.html">`+val.nome+`<a/>
-        <p>`+val.descricao+`</p>
+        <a key="`+val.nome+`" href="login.html">`+val.nome+`<a/>
         <p>`+val.categoria+`</p>
         <a class = "linkqtd" key="`+val.quantidade+`" href="#">Comprar<a/>
 
@@ -243,9 +242,5 @@ for(var i = 0; i < links.length; i++) {
 
 atualizarMeusCursos()
 
-const user = {
-    email: 'cle@cle.com',
-    nomeDeExibicao: "CLE",
-    password: 1234,
 
-}
+
