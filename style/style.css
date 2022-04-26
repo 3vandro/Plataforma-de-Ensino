@@ -9,20 +9,17 @@ body{
     font-family: josefin, sans-serif;
     background: linear-gradient(120deg, #2d7286, #99a6ad);
 }
+header{
+    max-height: 70px;
+    margin-bottom: 50px;
+    margin: auto;
+}
 .main-header{
-    height: 70px;
     background-color: #042e3a;
     color: white;
-    /* color: white;
-    text-decoration: none; */
+    text-decoration: none;
     width: 100%;
     display: flex;
-    /* font-size: 20px;
-    display: grid;
-    grid-template-columns: 3 33.33%; */
-    
-    /* align-items: center;
-    justify-content: space-between; */
     margin-bottom: 30px;
 }
 
@@ -66,7 +63,13 @@ body{
     font-family: josefin, sans-serif;
     color: white;
     font-size: 20px;
-    padding-right: 450px;
+}
+.nav-text{
+    font-family: josefin, sans-serif;
+    font-style: normal;    
+    color: #eff5f7;
+    text-decoration: none;
+    font-size: 35px;
 }
 
 /* #login{
