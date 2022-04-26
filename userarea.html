@@ -9,41 +9,35 @@
 </head>
 <body>
     <header>
-        <div>
-            <img id="logo" src="img/logo.png" alt="logo">
-        </div>
-        <div>
-            <h1 id="sigla">CLE</h1>
-            <h1 id="extenso">Criative Learning Experience</h1>
-        </div>
-        <nav>
-            <a href="userarea.html">Nossa Instituição</a>
-            <a href="cursos.html">Nossos Cursos</a>
-        </nav>
-        <div>
-            <nav>
-                <a href="login.html">Login</a>
-            </nav>
+        <div class="main-header">
+            <div class="left-header">
+                <div>
+                   <a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a> 
+                </div>
+                <div>
+                    <h2 id="sigla">CLE</h1>
+                    <h2 id="extenso">Criative Learning Experience</h1>
+                </div>
+            </div>
+            <div class="center-header">
+                <nav>
+                <a href="cursos.html">Nossos Cursos</a>
+                </nav>  
+            </div>
+            <div class="right-header">
+                <nav>
+                    <a href="login.html">Login</a>
+                </nav>
+            </div>
         </div>
     </header>
-    <h1>SEJA BEM VINDO NOVAMENTE .....(ALUNO)</h1>
+    <h1 class="userarea">SEJA BEM VINDO NOVAMENTE .....(ALUNO)</h1>
     <div id="gradeAluno">
         <div>
-        <img id="imguser" src="img/usuario.png" alt="imagem aluno">
+        <img id="imguser" src="../Plataforma-de-Ensino-main/img/imagem 3.png" alt="imagem aluno">
         </div>
         <div class="userinfo">
-            <div>
-            <a class="item" href="">Meus Cursos em Andamento</a>
-            </div>
-            <div>
-            <a class="item" href="">Meus Cursos Concluidos</a>
-            </div>
-            <div>
-            <a class="item" href="">Meus certificados</a>
-            </div>
-            <div>
-            <a class="item" href="">Loja</a>
-            </div>
+           
         </div>
     </div>
     <div id="meuscursos">
@@ -57,6 +51,66 @@
     <script src="app/app.js"></script>
 </body>
 <footer>
+    <div class="main-content">
+        <div class="left box">
+            <h2> Sobre nós</h2>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste facilis harum eos vel incidunt
+                    distinctio corrupti iure? Rem</p>
 
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <!--left box-->
+        <div class="center box">
+            <h2>Endereço</h2>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker"></span>
+                    <span class="text">Av.exemplo, Rua exemplo</span>
+                </div>
+
+                <div class="phone">
+                    <span class="fas fas fa-phone-alt"></span>
+                    <span class="text">+55 99 9999-9999</span>
+                </div>
+
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">exemplo@exemplo.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="right box">
+            <h2>Contato</h2>
+            <div class="content">
+                <form action="#">
+                    <div class="email">
+                        <div class="text">Email *</div>
+                        <input type="email" required>
+                    </div>
+                    <div class="msg">
+                        <div class="text">Mensagem *</div>
+                        <textarea rows="2" cols="25" required></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--main-content-->
+    <div class="bottom">
+        <div class="center">
+            <span class="credit"> <a href="#">CLE Criative Learning Experience - </a></span>
+            <span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+        </div>
+    </div>
 </footer>
 </html>
