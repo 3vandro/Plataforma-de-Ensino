@@ -125,8 +125,11 @@ header{
 }
 
 .slider-center{
-    margin-left: 900px;
-    margin-top: 20px;
+    display: flex;
+   margin:auto;
+   align-items: center;
+   justify-content: center ;
+  
 
 }
 
