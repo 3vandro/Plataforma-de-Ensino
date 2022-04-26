@@ -12,3 +12,62 @@ img{
    width: 500px;
    height: 600px;
   }
+  .main-header{
+   height: 70px;
+   background-color: #042e3a;
+   color: white;
+   /* color: white;
+   text-decoration: none; */
+   width: 100%;
+   display: flex;
+   /* font-size: 20px;
+   display: grid;
+   grid-template-columns: 3 33.33%; */
+   
+   /* align-items: center;
+   justify-content: space-between; */
+   margin-bottom: 30px;
+}
+
+
+.left-header{
+ float: left;
+ width: 33.33%;
+ text-align: left;
+ display: flex;
+}
+.center-header{
+   display:flex;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   width: 33.33%;
+   
+}
+.right-header{
+   float: right;
+   color: white;
+   text-decoration: none;
+   width: 33.33%;
+   text-align: right;
+   padding-right: 15px;
+   
+}
+#logo{
+   height: 50px;
+   padding-left: 15px;
+   float: left;
+}
+
+#sigla{
+   font-family: josefin, sans-serif;
+   color: white;
+   font-size: 25px;
+}
+
+#extenso{
+   font-family: josefin, sans-serif;
+   color: white;
+   font-size: 20px;
+   padding-right: 450px;
+}
